@@ -1,7 +1,7 @@
 # Guia-N-4-Senales-electromiograficas-EMG
 
-##PARTE A
+## PARTE A
 
-##PARTE B
+## PARTE B
 
-33PARTE C
+## PARTE C
