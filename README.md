@@ -66,4 +66,25 @@ El suavizado por media móvil permite reducir la variabilidad inherente de la se
 
 Aunque las tendencias lineales no muestran una disminución pronunciada y presentan una ligera pendiente positiva, se evidencian fluctuaciones en las curvas suavizadas que reflejan cambios en el contenido frecuencial de la señal. Este comportamiento es consistente con la naturaleza no estacionaria de señales fisiológicas reales.
 
+
+<img width="1937" height="744" alt="parteB_3_evolucion_frecuencias_20260421_210538" src="https://github.com/user-attachments/assets/a8e34162-c6a0-457e-963d-edec3001f1f8" />
+
+
+En la comparación entre las primeras y últimas ventanas, se observan diferencias en la distribución de la densidad espectral de potencia (PSD).
+
+En las primeras ventanas, la señal presenta una mayor concentración de energía en frecuencias medias-altas (aproximadamente entre 100 y 200 Hz). En contraste, en las últimas ventanas se evidencia una ligera redistribución del contenido espectral hacia frecuencias más bajas, junto con una disminución relativa de las componentes de mayor frecuencia.
+
+Adicionalmente, los valores de la frecuencia media (MNF) muestran mayor variabilidad en las últimas ventanas en comparación con las iniciales, lo cual es característico de señales EMG reales y refleja cambios en la actividad muscular a lo largo del tiempo.
+
+
+<img width="1935" height="742" alt="parteB_4_espectros_comparacion_20260421_210538" src="https://github.com/user-attachments/assets/ebdd4a0e-df07-4bcc-9c99-ab55e6570ade" />
+
+
+A diferencia de la Parte A, en este caso la señal proviene de una medición real, por lo que presenta una mayor variabilidad tanto en el dominio temporal como frecuencial.
+
+Se observan indicios de fatiga muscular, principalmente en la redistribución del contenido espectral hacia frecuencias más bajas en las últimas ventanas y en la variabilidad de las métricas espectrales a lo largo del tiempo. Este comportamiento está asociado a la disminución de la velocidad de conducción de las fibras musculares durante el esfuerzo sostenido.
+
+No obstante, la ausencia de una tendencia claramente decreciente en la MNF y la MDF indica que la fatiga no se manifiesta de manera uniforme, lo cual es esperable en registros reales debido a factores como variaciones en la contracción, ruido y características propias del sujeto.
+
+
 ## PARTE C
