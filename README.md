@@ -18,9 +18,21 @@ Para efectos de visualización, en la figura presentada se muestran únicamente 
 
 <img width="2087" height="744" alt="parteA_ventanas_superimposed_20260422_151228" src="https://github.com/user-attachments/assets/a1e60d44-4542-459c-8909-3adf3fcbac7c" />
 
+En la gráfica de evolución temporal, se observa que tanto la frecuencia media (MNF) como la frecuencia mediana (MDF) presentan oscilaciones periódicas a lo largo del tiempo. Este comportamiento es consistente con el uso de ventanas superpuestas (50 % de overlap), lo que genera redundancia entre segmentos consecutivos.
+
+A pesar de estas variaciones locales, no se evidencia una tendencia creciente o decreciente en ninguna de las dos métricas, lo cual se confirma con las líneas de tendencia prácticamente horizontales. Esto indica que no hay un desplazamiento del contenido espectral hacia frecuencias más bajas.
+
 <img width="1937" height="744" alt="parteA_evolucion_frecuencias_20260422_151228" src="https://github.com/user-attachments/assets/e0b1747c-9936-4f9f-b656-696f97c235a4" />
+
+En la figura de comparación espectral entre las primeras y últimas ventanas, se observa que la forma de la densidad espectral de potencia (PSD) es prácticamente igual en ambos casos. Las componentes de mayor energía se concentran en bajas frecuencias y el espectro decae progresivamente a medida que aumenta la frecuencia.
+
+Al comparar las primeras tres ventanas con las últimas tres, no se evidencian cambios significativos en la distribución espectral. Además, los valores de la frecuencia media (MNF) mostrados en la gráfica son muy similares entre ambos grupos de ventanas, lo que indica que el contenido frecuencial de la señal se mantiene estable a lo largo del tiempo.
+
 <img width="1935" height="742" alt="parteA_espectros_comparacion_20260422_151228" src="https://github.com/user-attachments/assets/86d392ed-7db0-46dd-a114-eadbc500af1a" />
 
+A partir de ambas imagenes, se concluye que no hay evidencia de fatiga muscular en la señal analizada. En un escenario real, la fatiga se manifestaría como una disminución progresiva de la MNF y la MDF, acompañada de un desplazamiento del espectro hacia bajas frecuencias.
+
+Sin embargo, en este caso la señal proviene de un generador, por lo que sus características espectrales permanecen constantes en el tiempo. En consecuencia, no es posible simular de manera realista el fenómeno de fatiga muscular, lo cual explica la estabilidad observada en ambas gráficas.
 
 ## PARTE B
 
