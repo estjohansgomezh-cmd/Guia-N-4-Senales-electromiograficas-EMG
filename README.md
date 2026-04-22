@@ -36,4 +36,20 @@ Sin embargo, en este caso la señal proviene de un generador, por lo que sus car
 
 ## PARTE B
 
+Debido a que la señal en la Parte B corresponde a una medición real (adquirida de un sujeto), fue necesario realizar un preprocesamiento previo para garantizar la calidad de la señal EMG. En este sentido, se aplicó un filtro pasa banda entre 20 Hz y 450 Hz, con el fin de eliminar componentes de baja frecuencia asociadas a movimiento y ruido de línea base, así como componentes de alta frecuencia relacionadas con ruido eléctrico.
+
+A diferencia de la Parte A, en este caso se trabajó directamente con una señal continua adquirida experimentalmente, lo que permitió conservar la variabilidad natural del fenómeno fisiológico a lo largo del tiempo.
+
+<img width="2085" height="1038" alt="parteB_1_cruda_vs_filtrada_20260421_210538" src="https://github.com/user-attachments/assets/1ba4e341-206a-400f-840c-f77f3e6116f3" />
+
+Al igual que en la Parte A, se empleó una ventana temporal de 1 s con un solapamiento (overlap) del 50 %. Considerando una frecuencia de muestreo de 1000 Hz, cada ventana corresponde a 1000 muestras. Esta configuración permite una adecuada segmentación de la señal, manteniendo continuidad entre ventanas y reduciendo la pérdida de información en los bordes.
+
+Esta misma metodología fue aplicada sobre una señal con una duración total de 52 s. Para efectos de visualización, se presentan únicamente los primeros 5 s de la señal; sin embargo, el análisis se realizó considerando la totalidad de las ventanas obtenidas.
+
+<img width="2087" height="744" alt="parteB_2_ventanas_superimposed_20260421_210538" src="https://github.com/user-attachments/assets/cc2c5f30-83fc-4855-84eb-65af2e6ee099" />
+
+
+
+
+
 ## PARTE C
