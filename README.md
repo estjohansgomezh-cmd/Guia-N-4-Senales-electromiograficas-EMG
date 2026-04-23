@@ -1,4 +1,4 @@
-# Informe- Práctica de Laboratorio N° 4: Señales Electromiográficas EMG
+# Práctica de Laboratorio N° 4: Señales Electromiográficas EMG
 Universidad Militar Nueva Granada — Ingeniería Biomédica — Procesamiento Digital de Señales
 ---
 ## Descripción
