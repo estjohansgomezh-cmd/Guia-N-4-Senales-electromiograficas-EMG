@@ -1,4 +1,9 @@
 # Guia-N-4-Senales-electromiograficas-EMG
+---
+## Descripción
+
+En este repositorio se presenta el informe y los resultados de la Práctica de Laboratorio #4 de Señales electromiográficas EMG.
+
 
 ## PARTE A
 
