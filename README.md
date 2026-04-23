@@ -101,11 +101,14 @@ No obstante, la ausencia de una tendencia claramente decreciente en la MNF y la 
 
 ## PARTE C
 
+<img width="1937" height="744" alt="parteC_G6_pico_espectral_20260423_110109" src="https://github.com/user-attachments/assets/7e2192c8-0a30-4c9f-b668-588e3fbc8e79" />
+<img width="1891" height="1330" alt="parteC_G5_espectrograma_20260423_110109" src="https://github.com/user-attachments/assets/7404a95d-588a-4dc3-ab64-1a327dd47c13" />
+<img width="2085" height="742" alt="parteC_G4_primeras_vs_ultimas_real_20260423_110109" src="https://github.com/user-attachments/assets/9eae18b3-4a3f-452a-9210-e0a1313fe0db" />
+<img width="2085" height="742" alt="parteC_G3_primeras_vs_ultimas_emulada_20260423_110109" src="https://github.com/user-attachments/assets/eeece868-8962-49b6-9aff-9fb72f471f38" />
+<img width="1760" height="744" alt="parteC_G2_fft_todas_real_20260423_110109" src="https://github.com/user-attachments/assets/1e8ca791-00f3-44b8-9af6-1813fc745a0c" />
+<img width="1760" height="744" alt="parteC_G1_fft_todas_emulada_20260423_110109" src="https://github.com/user-attachments/assets/8d820cc3-6240-4232-abc4-8920ecfbda96" />
+<img width="500" height="262" alt="image" src="https://github.com/user-attachments/assets/b47e3f0c-8972-4c8f-817f-caa45d40dee6" />
 
-<img width="1937" height="744" alt="parteC_3_pico_espectral_20260422_190847" src="https://github.com/user-attachments/assets/8f907a59-e361-4ace-bab8-e866cb1be241" />
-<img width="1904" height="891" alt="parteC_2_espectrograma_20260422_190847" src="https://github.com/user-attachments/assets/95f16758-6095-4b85-b5e4-183a119f9f81" />
-<img width="2085" height="742" alt="parteC_1_fft_primeras_vs_ultimas_20260422_190847" src="https://github.com/user-attachments/assets/1e7a5e34-7dd3-4212-be0c-3943da3ad64a" />
-<img width="1637" height="744" alt="parteC_4_espectro_promedio_20260422_190847" src="https://github.com/user-attachments/assets/85f1813f-dc13-4c68-876e-5ad0d687633d" />
 
 ## Análisis de resultados 
 
