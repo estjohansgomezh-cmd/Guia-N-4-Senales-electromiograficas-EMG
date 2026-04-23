@@ -152,14 +152,19 @@ Finalmente, se puede afirmar que el sistema neuromuscular respondió de manera a
 - ¿Cambian los valores de frecuencia media y mediana a medida que el músculo se acerca a la fatiga? ¿A qué podría atribuirse este cambio?
   
   En condiciones de fatiga muscular, los valores de la frecuencia media (MNF) y la frecuencia mediana (MDF) tienden a disminuir progresivamente. Este comportamiento se atribuye principalmente a la reducción de la velocidad de conducción de las fibras musculares, especialmente las de tipo II, debido a la acumulación de metabolitos como los iones de hidrógeno, lo que genera una disminución del pH intramuscular. Como consecuencia, los potenciales de acción se ensanchan en el tiempo, desplazando el contenido espectral hacia frecuencias más bajas.
+  
 Adicionalmente, durante la fatiga se presentan cambios en el reclutamiento de unidades motoras, donde las de mayor umbral pueden perder eficiencia, favoreciendo una mayor participación relativa de unidades motoras de menor frecuencia.
+
 Sin embargo, en los resultados obtenidos en esta práctica no se evidencia una disminución clara y sostenida de la MNF y la MDF. Por el contrario, el comportamiento de la señal sugiere que no se alcanzó un estado de fatiga muscular definido, sino que se presentaron únicamente indicios parciales. Esto puede explicarse por un aumento en el reclutamiento de unidades motoras, lo cual compensa los efectos esperados de la fatiga y evita una caída marcada en las frecuencias.
 
 - ¿Cómo justifica el uso de herramientas como la transformada de Fourier en escenarios como, por ejemplo, terapias de rehabilitación?
   
   La transformada de Fourier es una herramienta fundamental en el análisis de señales electromiográficas, ya que permite transformar una señal en el dominio del tiempo a su representación en frecuencia, facilitando la interpretación de la actividad muscular.
+  
 En el contexto de la rehabilitación, su uso se justifica porque permite evaluar de manera objetiva el estado funcional del músculo. A través del análisis espectral, es posible identificar cambios en la activación muscular, como variaciones en la frecuencia asociadas a procesos de fatiga o recuperación.
+
 Además, permite monitorear la evolución del paciente a lo largo del tratamiento, comparando métricas como la frecuencia media y mediana entre diferentes sesiones. Esto ayuda a determinar si existe una mejora en la función muscular o si se presentan patrones anormales de activación.
+
 También es útil para detectar compensaciones musculares, ya que cambios en el contenido espectral pueden indicar que otros músculos están siendo utilizados de forma inadecuada para realizar un movimiento.
 En general, la transformada de Fourier convierte señales complejas en información cuantificable y clínicamente útil, lo que la hace una herramienta clave en el diagnóstico, seguimiento y optimización de terapias de rehabilitación.
 
