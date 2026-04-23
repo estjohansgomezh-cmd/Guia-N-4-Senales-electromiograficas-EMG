@@ -8,6 +8,9 @@ Para cuantificar este fenómeno se emplearon dos medidaa espectrales clave: la f
 
 La práctica se dividió en tres partes: la Parte A trabajó con una señal emulada por un generador de señales biológicas, la Parte B con una señal real adquirida de un individuo, y la Parte C realizó un análisis espectral profundo sobre la señal real mediante FFT, espectrograma y evolución del pico espectral.
 
+## Metodología
+
+Durante todo el desarrollo de la práctica se utilizó una ventana temporal de 1 segundo con un solapamiento del 50 %. Con una frecuencia de muestreo de 1000 Hz y con ventanas que contienen 1000 muestras. Esta elección garantiza continuidad entre segmentos y reduce la pérdida de información en los bordes. La señal analizada tuvo una duración total de 52 segundos, generando un total de 103 ventanas.
 
 ## PARTE A
 
