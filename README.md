@@ -101,14 +101,33 @@ No obstante, la ausencia de una tendencia claramente decreciente en la MNF y la 
 
 ## PARTE C
 
-<img width="1937" height="744" alt="parteC_G6_pico_espectral_20260423_110109" src="https://github.com/user-attachments/assets/7e2192c8-0a30-4c9f-b668-588e3fbc8e79" />
-<img width="1891" height="1330" alt="parteC_G5_espectrograma_20260423_110109" src="https://github.com/user-attachments/assets/7404a95d-588a-4dc3-ab64-1a327dd47c13" />
-<img width="2085" height="742" alt="parteC_G4_primeras_vs_ultimas_real_20260423_110109" src="https://github.com/user-attachments/assets/9eae18b3-4a3f-452a-9210-e0a1313fe0db" />
-<img width="2085" height="742" alt="parteC_G3_primeras_vs_ultimas_emulada_20260423_110109" src="https://github.com/user-attachments/assets/eeece868-8962-49b6-9aff-9fb72f471f38" />
-<img width="1760" height="744" alt="parteC_G2_fft_todas_real_20260423_110109" src="https://github.com/user-attachments/assets/1e8ca791-00f3-44b8-9af6-1813fc745a0c" />
 <img width="1760" height="744" alt="parteC_G1_fft_todas_emulada_20260423_110109" src="https://github.com/user-attachments/assets/8d820cc3-6240-4232-abc4-8920ecfbda96" />
+
+La grfica presenta la superposición de todos los espectros de amplitud de la señal EMG emulada a lo largo de la contracción sostenida. Se observa un comportamiento espectral altamente regular y predecible, típico de una señal sintética estacionaria. La distribución de energía es constante en todas las ventanas de tiempo, con picos de frecuencia que no varían independientemente de la duración del esfuerzo. La barra de colores confirma que no hay una evolución temporal significativa, indicando la ausencia de procesos fisiológicos como la fatiga muscular. Esta señal sirve como control para diferenciar un comportamiento ideal de uno biológico.
+
+<img width="1937" height="744" alt="parteC_G6_pico_espectral_20260423_110109" src="https://github.com/user-attachments/assets/7e2192c8-0a30-4c9f-b668-588e3fbc8e79" />
+
+En contraste con la señal emulada, la grafica de la señal real muestra la superposición de los espectros de amplitud de la señal EMG real. Este espectro es característico de un proceso biológico estocástico, reflejando la suma asincrónica de los potenciales de acción de múltiples unidades motoras. Se evidencia una mayor variabilidad y una distribución de energía más densa en comparación con G1. Aunque la superposición dificulta la visualización detallada de la evolución temporal, la 'riqueza' espectral y la dispersión de los picos son indicativos de la complejidad de la activación muscular y sugieren la presencia de cambios fisiológicos dinámicos a lo largo de la contracción sostenida.
+
+<img width="1891" height="1330" alt="parteC_G5_espectrograma_20260423_110109" src="https://github.com/user-attachments/assets/7404a95d-588a-4dc3-ab64-1a327dd47c13" />
+
+La anterior grafica compara los espectros de amplitud de las primeras tres ventanas de tiempo (inicio de la contracción) con las últimas tres (final de la contracción) para la señal emulada. Esta comparación directa confirma la estabilidad temporal observada en G1. El contenido de frecuencia permanece idéntico, con picos principales consistentes en 21.0 Hz para todas las ventanas analizadas. La falta de variación entre el inicio y el final del 'esfuerzo' ratifica que la señal sintética no reproduce los fenómenos de fatiga muscular, sirviendo como un control negativo de referencia.
+
+<img width="2085" height="742" alt="parteC_G4_primeras_vs_ultimas_real_20260423_110109" src="https://github.com/user-attachments/assets/9eae18b3-4a3f-452a-9210-e0a1313fe0db" />
+
+La grafica presenta una comparación directa de las FFT de las primeras y últimas ventanas de tiempo para la señal real, revelando diferencias significativas. Se observa una marcada alteración en la distribución de energía y en la forma de los espectros a medida que progresa la contracción sostenida. Al inicio, los espectros muestran una mayor dispersión con presencia en frecuencias más altas. Hacia el final, la energía tiende a concentrarse de manera diferente, y los picos de frecuencia identificados son notablemente variables. Esta variabilidad y el cambio en la forma espectral son indicadores directos de la fatiga muscular y de la adaptación del sistema neuromuscular.
+
+<img width="2085" height="742" alt="parteC_G3_primeras_vs_ultimas_emulada_20260423_110109" src="https://github.com/user-attachments/assets/eeece868-8962-49b6-9aff-9fb72f471f38" />
+
+La anterior grafica proporciona una representación visual clara de la evolución temporal del contenido de frecuencia mediante espectrogramas. El espectrograma de la señal emulada (panel superior) es uniforme y constante, con una línea de tendencia del pico espectral prácticamente plana ($+0.009 \text{ Hz/s}$), confirmando la ausencia de cambios. Por el contrario, el espectrograma de la señal real (panel inferior) muestra una dinámica compleja con variaciones en la intensidad a través de diferentes frecuencias. La línea de tendencia amarilla revela un desplazamiento ascendente del pico espectral ($+0.094 \text{ Hz/s}$), indicando un cambio medible en la frecuencia dominante a lo largo de la contracción sostenida.
+
+<img width="1760" height="744" alt="parteC_G2_fft_todas_real_20260423_110109" src="https://github.com/user-attachments/assets/1e8ca791-00f3-44b8-9af6-1813fc745a0c" />
+
+La ultima grafica cuantifica el desplazamiento del pico espectral, el indicador clave de fatiga analizado. Se confirma que la señal emulada mantiene una frecuencia de pico constante (línea azul), reflejando una tendencia nula ($+0.00 \text{ Hz}$ de desplazamiento total). La señal real muestra un comportamiento radicalmente diferente: a pesar de fluctuaciones significativas (línea roja cruda), la tendencia suavizada es marcadamente ascendente ($+0.094 \text{ Hz/s}$). Este aumento sistemático en la frecuencia del pico dominante, con un desplazamiento total de $+77.33 \text{ Hz}$ según el resumen, es la evidencia definitiva del proceso de fatiga muscular en este experimento.
+
 <img width="500" height="262" alt="image" src="https://github.com/user-attachments/assets/b47e3f0c-8972-4c8f-817f-caa45d40dee6" />
 
+La tabla adjunta resume las métricas clave de la Parte C, corroborando cuantitativamente todas las observaciones visuales. La señal emulada presenta una tendencia plana ($+0.0093 \text{ Hz/s}$) y un desplazamiento nulo ($+0.00 \text{ Hz}$), concluyendo un comportamiento típico de una señal periódica estable. La señal real muestra un aumento significativo en la frecuencia del pico, con un desplazamiento total de $+77.33 \text{ Hz}$ y una tendencia ascendente clara ($+0.0942 \text{ Hz/s}$). Estos resultados demuestran de manera inequívoca la presencia de fatiga muscular durante la contracción real y validan el uso del análisis espectral mediante FFT como una herramienta sensible para su detección y cuantificación.
 
 ## Análisis de resultados 
 
