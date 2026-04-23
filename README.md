@@ -6,7 +6,7 @@ Universidad Militar Nueva Granada — Ingeniería Biomédica — Procesamiento D
 En esta práctica se abordó la adquisición, acondicionamiento y procesamiento de señales electromiográficas (EMG) con el objetivo de evaluar cambios en sus características espectrales asociados a la fatiga muscular. La electromiografía de superficie (sEMG) permite registrar la actividad eléctrica muscular de forma no invasiva, capturando la suma de los potenciales de acción generados por las fibras musculares durante la contracción. A medida que el músculo se fatiga, la velocidad de conducción de las fibras disminuye como consecuencia de la acumulación de lactato y la reducción del ATP disponible, lo que se manifiesta como un desplazamiento del contenido espectral de la señal EMG hacia frecuencias más bajas.
 Para cuantificar este fenómeno se emplearon dos medidaa espectrales clave: la frecuencia media (MNF) y la frecuencia mediana (MDF), complementadas con el análisis de espectros mediante la Transformada Rápida de Fourier (FFT).
 
-La práctica se dividió en tres partes: la Parte A trabajó con una señal emulada por un generador de señales biológicas, la Parte B con una señal real adquirida de un sujeto voluntario, y la Parte C realizó un análisis espectral profundo sobre la señal real mediante FFT, espectrograma y evolución del pico espectral.
+La práctica se dividió en tres partes: la Parte A trabajó con una señal emulada por un generador de señales biológicas, la Parte B con una señal real adquirida de un individuo, y la Parte C realizó un análisis espectral profundo sobre la señal real mediante FFT, espectrograma y evolución del pico espectral.
 
 
 ## PARTE A
