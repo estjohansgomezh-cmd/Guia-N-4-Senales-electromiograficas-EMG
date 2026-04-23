@@ -107,5 +107,11 @@ No obstante, la ausencia de una tendencia claramente decreciente en la MNF y la 
 <img width="2085" height="742" alt="parteC_1_fft_primeras_vs_ultimas_20260422_190847" src="https://github.com/user-attachments/assets/1e7a5e34-7dd3-4212-be0c-3943da3ad64a" />
 <img width="1637" height="744" alt="parteC_4_espectro_promedio_20260422_190847" src="https://github.com/user-attachments/assets/85f1813f-dc13-4c68-876e-5ad0d687633d" />
 
+## Análisis de resultados 
 
+Al contrastar los resultados de las tres partes, emerge uno fundamental: la señal emulada (Parte A) no puede reproducir el fenómeno de fatiga por su naturaleza sintética, mientras que la señal real (Partes B y C) sí muestra indicios del proceso fisiológico, aunque de forma moderada y con ruido inherente a las condiciones de adquisición.
+
+Desde el punto de vista fisiológico, la fatiga muscular se manifiesta espectralmente porque durante el esfuerzo sostenido disminuye la velocidad de conducción de las fibras musculares tipo II (rápidas), las cuales contribuyen con las componentes de mayor frecuencia al espectro EMG. A medida que estas fibras se fatigan, el espectro pierde energía en la banda alta y la gana en la baja, produciendo el descenso de MNF y MDF. Este mecanismo es el que permite usar el sEMG como indicador no invasivo de fatiga.
+
+La metodología de ventaneo con overlap del 50 % demostró ser adecuada para capturar la dinámica temporal de las métricas espectrales. Sin embargo, para una detección más robusta de fatiga sería recomendable combinar estas métricas con indicadores del dominio del tiempo como el RMS (Root Mean Square), que típicamente aumenta con la fatiga como mecanismo compensatorio de reclutamiento de unidades motoras adicionales.
 
