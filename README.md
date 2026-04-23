@@ -88,3 +88,12 @@ No obstante, la ausencia de una tendencia claramente decreciente en la MNF y la 
 
 
 ## PARTE C
+
+
+<img width="1937" height="744" alt="parteC_3_pico_espectral_20260422_190847" src="https://github.com/user-attachments/assets/8f907a59-e361-4ace-bab8-e866cb1be241" />
+<img width="1904" height="891" alt="parteC_2_espectrograma_20260422_190847" src="https://github.com/user-attachments/assets/95f16758-6095-4b85-b5e4-183a119f9f81" />
+<img width="2085" height="742" alt="parteC_1_fft_primeras_vs_ultimas_20260422_190847" src="https://github.com/user-attachments/assets/1e7a5e34-7dd3-4212-be0c-3943da3ad64a" />
+<img width="1637" height="744" alt="parteC_4_espectro_promedio_20260422_190847" src="https://github.com/user-attachments/assets/85f1813f-dc13-4c68-876e-5ad0d687633d" />
+
+
+
